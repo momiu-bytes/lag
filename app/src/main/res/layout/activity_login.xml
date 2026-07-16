@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#202124"
+    android:padding="24dp">
+
+    <!-- Circular Logo -->
+    <RelativeLayout
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@drawable/circle_logo_bg"
+        android:gravity="center"
+        android:layout_marginBottom="28dp">
+
+        <TextView
+            android:id="@+id/logoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TP×MD"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+        <View
+            android:layout_width="6dp"
+            android:layout_height="6dp"
+            android:layout_below="@id/logoText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/circle_cyan_dot" />
+    </RelativeLayout>
+
+    <!-- App Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lag TP×MDUC"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        android:gravity="center" />
+
+    <!-- Subtitle -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hệ thống kiểm soát mạng &amp; tối ưu ping"
+        android:textColor="#808080"
+        android:textSize="12dp"
+        android:gravity="center"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="32dp" />
+
+    <!-- Input Box Frame -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/input_field_bg"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NHẬP KHÓA (KEY)"
+            android:textColor="#00E5FF"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/keyInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mã key..."
+            android:textColorHint="#808080"
+            android:textColor="#FFFFFF"
+            android:background="@android:color/transparent"
+            android:inputType="numberPassword"
+            android:singleLine="true"
+            android:textSize="16sp"
+            android:layout_marginTop="4dp" />
+    </LinearLayout>
+
+    <!-- Error Text -->
+    <TextView
+        android:id="@+id/errorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sai key"
+        android:textColor="#FF3D00"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="12dp" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="12dp" />
+
+    <!-- OK Button -->
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="OK"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        android:background="@drawable/button_cyan_bg" />
+
+</LinearLayout>

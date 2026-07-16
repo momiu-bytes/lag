@@ -2,4 +2,10 @@
 <resources>
 
     <style name="Theme.MyApplication" parent="android:Theme.DeviceDefault.NoActionBar" />
+
+    <style name="CustomSwitchTheme" parent="android:Theme.DeviceDefault">
+        <!-- Switch track/thumb colors on toggle -->
+        <item name="colorControlActivated">#00E5FF</item>
+        <item name="colorSwitchThumbNormal">#808080</item>
+    </style>
 </resources>
