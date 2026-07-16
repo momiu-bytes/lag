@@ -1,6 +1,6 @@
 {
   "name": "Lag TP×MDUC",
-  "description": "Siêu nhẹ VPN lag switch và fake ping simulator tối ưu mượt mà cho game thủ",
+  "description": "Ứng dụng điều khiển gửi tín hiệu HTTP GET chuẩn xác cho Lag TP×MDUC",
   "requestFramePermissions": [],
   "majorCapabilities": [
     "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
