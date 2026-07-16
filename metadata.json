@@ -1,8 +1,0 @@
-{
-  "name": "Lag TP×MDUC",
-  "description": "Ứng dụng điều khiển gửi tín hiệu HTTP GET chuẩn xác cho Lag TP×MDUC",
-  "requestFramePermissions": [],
-  "majorCapabilities": [
-    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
-  ]
-}
